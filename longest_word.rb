@@ -19,5 +19,4 @@ def LongestWord(sen)
   end
 
   return largest_word
-
 end

@@ -11,5 +11,3 @@ def VowelCount(str)
   
   return count
 end
-
-VowelCount("hello")
