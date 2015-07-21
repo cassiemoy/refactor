@@ -7,9 +7,9 @@
 
 def VowelCount(str)
   count = 0
-  vowels = ["a", "e", "i", "o", "u"]
-
-  str.each_char {|i| count += 1 if vowels.include?(str[i])}
+  str.each_char {|i| count += 1 if i.match(/[aeiou]/)}
   
   return count
 end
+
+VowelCount("hello")
