@@ -25,4 +25,3 @@ def recursive_reverse_string(string)
     return string[len - 1] + recursive_reverse_string(string[0..(len - 2)])
   end
 end
-
